@@ -1,1 +1,2 @@
-# FRAS
+Project Summary:
+Developed a Face Recognition Attendance System using Python to automate and enhance the accuracy of attendance tracking. The system leverages OpenCV and machine learning techniques for real-time face detection and recognition. A secure database is integrated to store attendance records, ensuring efficient management and retrieval of data. The model is trained on a customized dataset to improve recognition accuracy under different lighting and facial variations. A user-friendly interface is implemented for seamless operation, making the system suitable for schools, offices, and other institutions.
