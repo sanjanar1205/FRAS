@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin List</title>
+</head>
+<body>
+    <h1>List of Admins</h1>
+    <ul>
+        {% for admin in admins %}
+            <li>{{ admin.username }} - {{ admin.email }} - {{ admin.password }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

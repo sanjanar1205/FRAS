@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Tkinter App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>    
+<body>
+
+    <div class="container">
+        <div class="para">
+            <p>WELCOME! ADMIN</p>
+        </div>
+        <div class="container1">
+            <div class="box">
+                <a href="{{ url_for('employee') }}">
+                    <div class="img">
+                        <img src="{{ url_for('static', filename='images/e1.jpg')}}" alt="employee">
+                    </div>
+                    
+                </a>
+            </div>
+            <div class="label"><h1>Employee Details</h1></div>
+
+            <div class="box">
+                <a href="{{ url_for('photo') }}">
+                    <div class="img">
+                        <img src="{{ url_for('static', filename='images/p1.jpeg')}}">
+                    </div>
+                    
+                </a>
+                <div class="label">Photos</div>
+            </div>
+            
+
+            <div class="box">
+                <a href="{{ url_for('attendance') }}">
+                    <div class="img">
+                        <img src="{{ url_for('static', filename='images/a2.jpg')}}">
+                    </div>
+                </a>
+                <div class="label">Attendance</div>
+            </div>
+
+            <div class="box">
+                <a href="{{ url_for('train') }}">
+                    <div class="img">
+                        <img src="{{ url_for('static', filename='images/t1.jpg')}}">
+                    </div>
+                </a>
+                <div class="label">Train Data</div>
+            </div>
+
+            <div class="box">
+                <a href="{{ url_for('detect2') }}">
+                    <div class="img">
+                        <img src="{{ url_for('static', filename='images/f.jpg')}}">
+                    </div>
+                </a>
+                <div class="label">Face Recogniser</div>
+            </div>
+            
+            <div class="box">
+                <a href="{{ url_for('exit') }}">
+                    <div class="img">
+                        <img src="{{ url_for('static', filename='images/x1.jpg')}}">
+                    </div>
+                </a>
+            </div>
+            <div class="label">Exit!</div>          
+        </div>
+
+    </div>
+</body>
+</html>

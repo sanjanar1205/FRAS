@@ -1,0 +1,64 @@
+body{
+    background-image: url("images/b1.png");
+    min-height: 600px;  
+    min-width:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+p{
+    font-size: 25px;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+    background: rgb(255, 255, 255, 0.8);
+
+    /* Add a transparency to shadow */
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+}
+
+button{
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.5);
+
+    /* Add a transparency to shadow */
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+
+}
+
+.text{
+    margin: auto;
+    padding: 20px;
+    color: white;
+    width: 600px;
+    height: 450px;
+    display: grid;
+    place-content: center;
+
+    /* Add a transparency to the background
+       using rgba value */
+    background: rgba(255, 255, 255, 0.1);
+
+    /* Add a transparency to shadow */
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+    
+}
+
+h3{
+    font-weight: 100;
+}
+
